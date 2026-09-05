@@ -1,0 +1,10 @@
+name: Latihan Actions
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cetak pesan
+        run: echo "Halo awan, workflow ini berhasil jalan!"
